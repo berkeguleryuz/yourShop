@@ -37,7 +37,7 @@ const Footer = (props: Props) => {
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">
                     If you&apos;re an artist, you can become a seller on
-                    YourShop.
+                    YourShop.{" "}
                     <Link
                       href="/sign-in?as=seller"
                       className="whitespace-nowrap font-medium text-black hover:text-zinc-900">
@@ -50,7 +50,7 @@ const Footer = (props: Props) => {
           )}
         </div>
 
-        <div className="py-10 md:flex md:items-center md:justify-betweens">
+        <div className="py-10 md:flex md:items-center md:justify-between">
           <div className="text-center md:text-left">
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} YourShop. All rights reserved.
