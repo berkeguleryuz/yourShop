@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Icons = {
   logo: (props: LucideProps) => (
-    <Image src="/logo.png" alt="logo" width={40} height={40} />
+    <Image src="/logo.png" alt="logo" width={128} height={128} />
     // <svg {...props} viewBox="0 0 512 512">
     //   <g>
     //     <path
